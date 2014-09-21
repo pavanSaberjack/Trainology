@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58E0ECC119CE1506002F13BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E0ECC019CE1506002F13BB /* main.m */; };
+		58E0ECC419CE1506002F13BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E0ECC319CE1506002F13BB /* AppDelegate.m */; };
+		58E0ECC719CE1506002F13BB /* Trainology.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 58E0ECC519CE1506002F13BB /* Trainology.xcdatamodeld */; };
+		58E0ECCA19CE1506002F13BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E0ECC919CE1506002F13BB /* ViewController.m */; };
+		58E0ECCD19CE1506002F13BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58E0ECCB19CE1506002F13BB /* Main.storyboard */; };
+		58E0ECCF19CE1506002F13BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58E0ECCE19CE1506002F13BB /* Images.xcassets */; };
+		58E0ECD219CE1506002F13BB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58E0ECD019CE1506002F13BB /* LaunchScreen.xib */; };
+		58E0ECDE19CE1506002F13BB /* TrainologyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E0ECDD19CE1506002F13BB /* TrainologyTests.m */; };
+		58E0ECED19CE1AD4002F13BB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58E0ECEC19CE1AD4002F13BB /* MapKit.framework */; };
+		58E0ECF419CE1C06002F13BB /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E0ECF219CE1C06002F13BB /* MapViewController.m */; };
+		58E0ECF519CE1C06002F13BB /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58E0ECF319CE1C06002F13BB /* MapViewController.xib */; };
+		58E0ED2B19CE2724002F13BB /* search_icon_searchbar_old@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58E0ED2A19CE2724002F13BB /* search_icon_searchbar_old@2x.png */; };
+		58E0ED2D19CE2DA7002F13BB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58E0ED2C19CE2DA7002F13BB /* CoreLocation.framework */; };
+		58E0ED3119CE5085002F13BB /* TrainStation.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E0ED3019CE5085002F13BB /* TrainStation.m */; };
+		58E0ED3419CE57C5002F13BB /* TrainRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E0ED3319CE57C5002F13BB /* TrainRoute.m */; };
+		58E0ED3719CE5939002F13BB /* RouteFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E0ED3619CE5939002F13BB /* RouteFinder.m */; };
+		58E0ED3B19CE7D7E002F13BB /* station_info_unique_less_bak.csv in Resources */ = {isa = PBXBuildFile; fileRef = 58E0ED3A19CE7D7E002F13BB /* station_info_unique_less_bak.csv */; };
+		58E0ED3D19CE7E1A002F13BB /* station_codes.csv in Resources */ = {isa = PBXBuildFile; fileRef = 58E0ED3C19CE7E1A002F13BB /* station_codes.csv */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58E0ECD819CE1506002F13BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58E0ECB319CE1506002F13BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58E0ECBA19CE1506002F13BB;
+			remoteInfo = Trainology;
+		};
+		58E0ED2819CE2180002F13BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58E0ECB319CE1506002F13BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58E0ECBA19CE1506002F13BB;
+			remoteInfo = Trainology;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58E0ECBB19CE1506002F13BB /* Trainology.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trainology.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58E0ECBF19CE1506002F13BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58E0ECC019CE1506002F13BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		58E0ECC219CE1506002F13BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		58E0ECC319CE1506002F13BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		58E0ECC619CE1506002F13BB /* Trainology.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Trainology.xcdatamodel; sourceTree = "<group>"; };
+		58E0ECC819CE1506002F13BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		58E0ECC919CE1506002F13BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		58E0ECCC19CE1506002F13BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58E0ECCE19CE1506002F13BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		58E0ECD119CE1506002F13BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		58E0ECD719CE1506002F13BB /* TrainologyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrainologyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58E0ECDC19CE1506002F13BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58E0ECDD19CE1506002F13BB /* TrainologyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrainologyTests.m; sourceTree = "<group>"; };
+		58E0ECEC19CE1AD4002F13BB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		58E0ECF119CE1C06002F13BB /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		58E0ECF219CE1C06002F13BB /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		58E0ECF319CE1C06002F13BB /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		58E0ED2A19CE2724002F13BB /* search_icon_searchbar_old@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "search_icon_searchbar_old@2x.png"; path = "../../../Github/EMC/Nov_6_clone/ios/syncplicity/syncplicity/Resources/iPhone/images/iPhoneNavBar/search_icon_searchbar_old@2x.png"; sourceTree = "<group>"; };
+		58E0ED2C19CE2DA7002F13BB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		58E0ED2F19CE5085002F13BB /* TrainStation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainStation.h; sourceTree = "<group>"; };
+		58E0ED3019CE5085002F13BB /* TrainStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainStation.m; sourceTree = "<group>"; };
+		58E0ED3219CE57C5002F13BB /* TrainRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainRoute.h; sourceTree = "<group>"; };
+		58E0ED3319CE57C5002F13BB /* TrainRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainRoute.m; sourceTree = "<group>"; };
+		58E0ED3519CE5939002F13BB /* RouteFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteFinder.h; sourceTree = "<group>"; };
+		58E0ED3619CE5939002F13BB /* RouteFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteFinder.m; sourceTree = "<group>"; };
+		58E0ED3A19CE7D7E002F13BB /* station_info_unique_less_bak.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = station_info_unique_less_bak.csv; sourceTree = "<group>"; };
+		58E0ED3C19CE7E1A002F13BB /* station_codes.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = station_codes.csv; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58E0ECB819CE1506002F13BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58E0ED2D19CE2DA7002F13BB /* CoreLocation.framework in Frameworks */,
+				58E0ECED19CE1AD4002F13BB /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58E0ECD419CE1506002F13BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58E0ECB219CE1506002F13BB = {
+			isa = PBXGroup;
+			children = (
+				58E0ED3C19CE7E1A002F13BB /* station_codes.csv */,
+				58E0ED3A19CE7D7E002F13BB /* station_info_unique_less_bak.csv */,
+				58E0ED2C19CE2DA7002F13BB /* CoreLocation.framework */,
+				58E0ED2A19CE2724002F13BB /* search_icon_searchbar_old@2x.png */,
+				58E0ECEC19CE1AD4002F13BB /* MapKit.framework */,
+				58E0ECBD19CE1506002F13BB /* Trainology */,
+				58E0ECDA19CE1506002F13BB /* TrainologyTests */,
+				58E0ECBC19CE1506002F13BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58E0ECBC19CE1506002F13BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58E0ECBB19CE1506002F13BB /* Trainology.app */,
+				58E0ECD719CE1506002F13BB /* TrainologyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58E0ECBD19CE1506002F13BB /* Trainology */ = {
+			isa = PBXGroup;
+			children = (
+				58E0ECC219CE1506002F13BB /* AppDelegate.h */,
+				58E0ECC319CE1506002F13BB /* AppDelegate.m */,
+				58E0ECC819CE1506002F13BB /* ViewController.h */,
+				58E0ECC919CE1506002F13BB /* ViewController.m */,
+				58E0ECCB19CE1506002F13BB /* Main.storyboard */,
+				58E0ECCE19CE1506002F13BB /* Images.xcassets */,
+				58E0ECD019CE1506002F13BB /* LaunchScreen.xib */,
+				58E0ECC519CE1506002F13BB /* Trainology.xcdatamodeld */,
+				58E0ECBE19CE1506002F13BB /* Supporting Files */,
+				58E0ED2E19CE502F002F13BB /* ViewControllers */,
+				58E0ED2F19CE5085002F13BB /* TrainStation.h */,
+				58E0ED3019CE5085002F13BB /* TrainStation.m */,
+				58E0ED3219CE57C5002F13BB /* TrainRoute.h */,
+				58E0ED3319CE57C5002F13BB /* TrainRoute.m */,
+				58E0ED3519CE5939002F13BB /* RouteFinder.h */,
+				58E0ED3619CE5939002F13BB /* RouteFinder.m */,
+			);
+			path = Trainology;
+			sourceTree = "<group>";
+		};
+		58E0ECBE19CE1506002F13BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				58E0ECBF19CE1506002F13BB /* Info.plist */,
+				58E0ECC019CE1506002F13BB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		58E0ECDA19CE1506002F13BB /* TrainologyTests */ = {
+			isa = PBXGroup;
+			children = (
+				58E0ECDD19CE1506002F13BB /* TrainologyTests.m */,
+				58E0ECDB19CE1506002F13BB /* Supporting Files */,
+			);
+			path = TrainologyTests;
+			sourceTree = "<group>";
+		};
+		58E0ECDB19CE1506002F13BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				58E0ECDC19CE1506002F13BB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		58E0ED2E19CE502F002F13BB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				58E0ECF119CE1C06002F13BB /* MapViewController.h */,
+				58E0ECF219CE1C06002F13BB /* MapViewController.m */,
+				58E0ECF319CE1C06002F13BB /* MapViewController.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58E0ECBA19CE1506002F13BB /* Trainology */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58E0ECE119CE1506002F13BB /* Build configuration list for PBXNativeTarget "Trainology" */;
+			buildPhases = (
+				58E0ECB719CE1506002F13BB /* Sources */,
+				58E0ECB819CE1506002F13BB /* Frameworks */,
+				58E0ECB919CE1506002F13BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trainology;
+			productName = Trainology;
+			productReference = 58E0ECBB19CE1506002F13BB /* Trainology.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58E0ECD619CE1506002F13BB /* TrainologyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58E0ECE419CE1506002F13BB /* Build configuration list for PBXNativeTarget "TrainologyTests" */;
+			buildPhases = (
+				58E0ECD319CE1506002F13BB /* Sources */,
+				58E0ECD419CE1506002F13BB /* Frameworks */,
+				58E0ECD519CE1506002F13BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58E0ECD919CE1506002F13BB /* PBXTargetDependency */,
+				58E0ED2919CE2180002F13BB /* PBXTargetDependency */,
+			);
+			name = TrainologyTests;
+			productName = TrainologyTests;
+			productReference = 58E0ECD719CE1506002F13BB /* TrainologyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58E0ECB319CE1506002F13BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Pavan Itagi";
+				TargetAttributes = {
+					58E0ECBA19CE1506002F13BB = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					58E0ECD619CE1506002F13BB = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 58E0ECBA19CE1506002F13BB;
+					};
+				};
+			};
+			buildConfigurationList = 58E0ECB619CE1506002F13BB /* Build configuration list for PBXProject "Trainology" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58E0ECB219CE1506002F13BB;
+			productRefGroup = 58E0ECBC19CE1506002F13BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58E0ECBA19CE1506002F13BB /* Trainology */,
+				58E0ECD619CE1506002F13BB /* TrainologyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58E0ECB919CE1506002F13BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58E0ED3B19CE7D7E002F13BB /* station_info_unique_less_bak.csv in Resources */,
+				58E0ECCD19CE1506002F13BB /* Main.storyboard in Resources */,
+				58E0ED3D19CE7E1A002F13BB /* station_codes.csv in Resources */,
+				58E0ECD219CE1506002F13BB /* LaunchScreen.xib in Resources */,
+				58E0ECCF19CE1506002F13BB /* Images.xcassets in Resources */,
+				58E0ED2B19CE2724002F13BB /* search_icon_searchbar_old@2x.png in Resources */,
+				58E0ECF519CE1C06002F13BB /* MapViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58E0ECD519CE1506002F13BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58E0ECB719CE1506002F13BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58E0ECC719CE1506002F13BB /* Trainology.xcdatamodeld in Sources */,
+				58E0ED3119CE5085002F13BB /* TrainStation.m in Sources */,
+				58E0ED3419CE57C5002F13BB /* TrainRoute.m in Sources */,
+				58E0ECC419CE1506002F13BB /* AppDelegate.m in Sources */,
+				58E0ECF419CE1C06002F13BB /* MapViewController.m in Sources */,
+				58E0ECCA19CE1506002F13BB /* ViewController.m in Sources */,
+				58E0ECC119CE1506002F13BB /* main.m in Sources */,
+				58E0ED3719CE5939002F13BB /* RouteFinder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58E0ECD319CE1506002F13BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58E0ECDE19CE1506002F13BB /* TrainologyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58E0ECD919CE1506002F13BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58E0ECBA19CE1506002F13BB /* Trainology */;
+			targetProxy = 58E0ECD819CE1506002F13BB /* PBXContainerItemProxy */;
+		};
+		58E0ED2919CE2180002F13BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58E0ECBA19CE1506002F13BB /* Trainology */;
+			targetProxy = 58E0ED2819CE2180002F13BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		58E0ECCB19CE1506002F13BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58E0ECCC19CE1506002F13BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58E0ECD019CE1506002F13BB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58E0ECD119CE1506002F13BB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58E0ECDF19CE1506002F13BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jnanesh Nayak (QQ4E7JP8E3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "08ce27e7-9bf8-45e4-a781-f57becc07546";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		58E0ECE019CE1506002F13BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jnanesh Nayak (QQ4E7JP8E3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "08ce27e7-9bf8-45e4-a781-f57becc07546";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58E0ECE219CE1506002F13BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jnanesh Nayak (QQ4E7JP8E3)";
+				INFOPLIST_FILE = Trainology/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "08ce27e7-9bf8-45e4-a781-f57becc07546";
+			};
+			name = Debug;
+		};
+		58E0ECE319CE1506002F13BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jnanesh Nayak (QQ4E7JP8E3)";
+				INFOPLIST_FILE = Trainology/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "08ce27e7-9bf8-45e4-a781-f57becc07546";
+			};
+			name = Release;
+		};
+		58E0ECE519CE1506002F13BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TrainologyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trainology.app/Trainology";
+			};
+			name = Debug;
+		};
+		58E0ECE619CE1506002F13BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TrainologyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trainology.app/Trainology";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58E0ECB619CE1506002F13BB /* Build configuration list for PBXProject "Trainology" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58E0ECDF19CE1506002F13BB /* Debug */,
+				58E0ECE019CE1506002F13BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58E0ECE119CE1506002F13BB /* Build configuration list for PBXNativeTarget "Trainology" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58E0ECE219CE1506002F13BB /* Debug */,
+				58E0ECE319CE1506002F13BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		58E0ECE419CE1506002F13BB /* Build configuration list for PBXNativeTarget "TrainologyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58E0ECE519CE1506002F13BB /* Debug */,
+				58E0ECE619CE1506002F13BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		58E0ECC519CE1506002F13BB /* Trainology.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				58E0ECC619CE1506002F13BB /* Trainology.xcdatamodel */,
+			);
+			currentVersion = 58E0ECC619CE1506002F13BB /* Trainology.xcdatamodel */;
+			path = Trainology.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 58E0ECB319CE1506002F13BB /* Project object */;
+}
